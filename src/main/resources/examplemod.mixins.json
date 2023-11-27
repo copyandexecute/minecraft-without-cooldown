@@ -7,8 +7,11 @@
   },
   "mixins": [
     "BowAttackGoalMixin",
+    "EatGrassGoalMixin",
     "LivingEntityMixin",
-    "ShootFireballGoalMixin"
+    "SheepEntityMixin",
+    "ShootFireballGoalMixin",
+    "WanderAroundFarGoalMixin"
   ],
   "client": [
     "AbstractClientPlayerMixin"
