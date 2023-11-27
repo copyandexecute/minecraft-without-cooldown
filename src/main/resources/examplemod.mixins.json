@@ -1,11 +1,14 @@
 {
   "required": true,
-  "package": "org.example.examplemod.mixins",
+  "package": "gg.norisk.mixin",
   "compatibilityLevel": "JAVA_17",
   "injectors": {
     "defaultRequire": 0
   },
   "mixins": [
-
+    "ShootFireballGoalMixin"
+  ],
+  "client": [
+    "AbstractClientPlayerMixin"
   ]
 }

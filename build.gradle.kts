@@ -23,6 +23,10 @@ dependencies {
     modImplementation("net.silkmc:silk-core:$silkVersion")
 }
 
+loom {
+    accessWidenerPath.set(file("src/main/resources/examplemod.accesswidener"))
+}
+
 tasks {
     compileKotlin {
         kotlinOptions {
