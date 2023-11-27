@@ -6,6 +6,8 @@
     "defaultRequire": 0
   },
   "mixins": [
+    "BowAttackGoalMixin",
+    "LivingEntityMixin",
     "ShootFireballGoalMixin"
   ],
   "client": [
