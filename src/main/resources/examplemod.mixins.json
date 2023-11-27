@@ -6,14 +6,27 @@
     "defaultRequire": 0
   },
   "mixins": [
+    "AbstractBlockMixin",
+    "AbstractFurnaceBlockEntityMixin",
     "BowAttackGoalMixin",
+    "BowItemMixin",
+    "ChickenEntityMixin",
     "EatGrassGoalMixin",
+    "ItemMixin",
+    "LavaFluidMixin",
     "LivingEntityMixin",
+    "MobSpawnerLogicMixin",
     "SheepEntityMixin",
     "ShootFireballGoalMixin",
-    "WanderAroundFarGoalMixin"
+    "TntBlockMixin",
+    "TntEntityMixin",
+    "TridentItemMixin",
+    "WanderAroundFarGoalMixin",
+    "WaterFluidMixin"
   ],
   "client": [
-    "AbstractClientPlayerMixin"
+    "AbstractClientPlayerMixin",
+    "ClientPlayerInteractionManagerMixin",
+    "MinecraftClientMixin"
   ]
 }
