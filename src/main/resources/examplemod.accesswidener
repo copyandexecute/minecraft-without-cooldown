@@ -1,3 +1,4 @@
 accessWidener	v1	named
 accessible class net/minecraft/entity/mob/BlazeEntity$ShootFireballGoal
 accessible field net/minecraft/entity/mob/BlazeEntity$ShootFireballGoal fireballCooldown I
+accessible class net/minecraft/entity/mob/GhastEntity$ShootFireballGoal
