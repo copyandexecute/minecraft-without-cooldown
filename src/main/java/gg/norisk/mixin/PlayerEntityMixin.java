@@ -22,4 +22,9 @@ public abstract class PlayerEntityMixin extends LivingEntity {
     private void injected(World world, BlockPos blockPos, float f, GameProfile gameProfile, CallbackInfo ci) {
         this.getAttributeInstance(EntityAttributes.GENERIC_ATTACK_SPEED).setBaseValue(100);
     }
+
+    @Override
+    public int getMaxNetherPortalTime() {
+        return 0;
+    }
 }
