@@ -22,6 +22,7 @@
     "ProjectileAttackGoalMixin",
     "SheepEntityMixin",
     "ShootFireballGoalMixin",
+    "StrafePlayerPhaseMixin",
     "TntBlockMixin",
     "TntEntityMixin",
     "TridentItemMixin",
