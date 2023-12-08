@@ -8,6 +8,7 @@
   "mixins": [
     "AbstractBlockMixin",
     "AbstractFurnaceBlockEntityMixin",
+    "AnimalMateGoalMixin",
     "BowAttackGoalMixin",
     "BowItemMixin",
     "BrushItemMixin",
@@ -21,6 +22,7 @@
     "LivingEntityMixin",
     "MilkBucketItemMixin",
     "MobSpawnerLogicMixin",
+    "PassiveEntityMixin",
     "PlayerEntityMixin",
     "PotionItemMixin",
     "ProjectileAttackGoalMixin",
