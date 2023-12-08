@@ -25,6 +25,8 @@
     "TntBlockMixin",
     "TntEntityMixin",
     "TridentItemMixin",
+    "VillagerEntityMixin",
+    "VillagerWorkTaskMixin",
     "WanderAroundFarGoalMixin",
     "WaterFluidMixin"
   ],
