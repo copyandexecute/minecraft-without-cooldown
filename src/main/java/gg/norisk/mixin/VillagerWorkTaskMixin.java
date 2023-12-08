@@ -17,7 +17,7 @@ public abstract class VillagerWorkTaskMixin extends MultiTickTask<VillagerEntity
         super(map);
     }
 
-    protected boolean shouldRun(ServerWorld serverWorld, VillagerEntity villagerEntity) {
+    public boolean shouldRun(ServerWorld serverWorld, VillagerEntity villagerEntity) {
         GlobalPos globalPos = villagerEntity.getBrain().getOptionalRegisteredMemory(MemoryModuleType.JOB_SITE).get();
         return globalPos.getDimension() == serverWorld.getRegistryKey() && globalPos.getPos().isWithinDistance(villagerEntity.getPos(), 1.73);
     }
