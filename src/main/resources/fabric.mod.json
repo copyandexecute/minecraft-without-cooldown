@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "nocooldown",
   "version": "${version}",
-  "name": "Example Mod",
-  "description": "Example description",
+  "name": "NoCooldown",
+  "description": "removes nearly all cooldown in minecraft",
   "authors": [
-    "Joe"
+    "NoRiskk"
   ],
   "contact": {
     "homepage": "https://example.com/",
@@ -13,32 +13,20 @@
     "sources": "https://example.com/"
   },
   "license": "GPLv3+",
-  "icon": "assets/examplemod/icon.png",
+  "icon": "assets/nocooldown/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
       {
         "adapter": "kotlin",
-        "value": "org.example.examplemod.Manager"
-      }
-    ],
-    "server": [
-      {
-        "adapter": "kotlin",
-        "value": "org.example.examplemod.Manager"
-      }
-    ],
-    "client": [
-      {
-        "adapter": "kotlin",
-        "value": "org.example.examplemod.Manager"
+        "value": "gg.norisk.nocooldown.NoCooldown"
       }
     ]
   },
   "mixins": [
-    "examplemod.mixins.json"
+    "nocooldown.mixins.json"
   ],
-  "accessWidener": "examplemod.accesswidener",
+  "accessWidener": "nocooldown.accesswidener",
   "depends": {
     "fabricloader": ">=0.14",
     "minecraft": "1.20.x",

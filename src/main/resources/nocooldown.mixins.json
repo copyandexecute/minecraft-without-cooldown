@@ -23,6 +23,7 @@
     "LavaFluidMixin",
     "LivingEntityMixin",
     "MilkBucketItemMixin",
+    "BlockItemMixin",
     "MobSpawnerLogicMixin",
     "PassiveEntityMixin",
     "PlayerEntityMixin",

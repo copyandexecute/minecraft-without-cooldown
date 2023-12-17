@@ -24,7 +24,7 @@ dependencies {
 }
 
 loom {
-    accessWidenerPath.set(file("src/main/resources/examplemod.accesswidener"))
+    accessWidenerPath.set(file("src/main/resources/nocooldown.accesswidener"))
 }
 
 tasks {
